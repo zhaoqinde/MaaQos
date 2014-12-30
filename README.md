@@ -21,4 +21,4 @@ maaQos.setProvince(String  province)；
 maaQos.start(Context  context);
 三		混淆设置（非必须）
 -------------------------
-如果应用程序需要做混淆编译，请在混淆配置文件中加入以下代码：		-keep class com.mato.** { *; }		 -keep class com.maa.** { *; }		-dontwarn com.mato.**		 -dontwarn com.maa.**		-keepattributes Exceptions, Signature, InnerClasses, EnclosingMethod		  
+### 如果应用程序需要做混淆编译，请在混淆配置文件中加入以下代码：		-keep class com.mato.** { *; }		 -keep class com.maa.** { *; }		-dontwarn com.mato.**		 -dontwarn com.maa.**		-keepattributes Exceptions, Signature, InnerClasses, EnclosingMethod		  
