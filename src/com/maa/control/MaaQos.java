@@ -21,7 +21,7 @@ import com.mato.sdk.proxy.Proxy;
 
 public class MaaQos {
 	
-	public static final String MAA_SERVICE = "http://218.104.133.69/file";
+	public static final String MAA_SERVICE = "http://collect.dsp.chinanetcenter.com/file";
 	public static final int TEST_FINISH = 0;
 	public static final int UPLOAD_FINISH = 1;
 	public static final String version = "1.0.0";
